@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Alberto Javier Espinosa Yañez, junior C/C++ developer and Unity game developer." />
+  <title>Alberto Espinosa Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="#top">Alberto Espinosa <span>Portfolio</span></a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#fourbelow">4Below</a>
+        <a href="#projects">42 Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div class="intro-text reveal">
+          <p class="eyebrow">Junior C/C++ Developer · Unity Developer</p>
+          <h1>Alberto Javier Espinosa Yañez</h1>
+          <p class="lead">
+            I'm a junior developer focused on C, C++, C# and game development.
+            I trained for 3 years at 42 Madrid / Fundación Telefónica and I have been developing
+            my own online co-op game, <strong>4Below</strong>, for the last 2 years.
+          </p>
+          <p class="lead small">
+            I enjoy solving technical problems, building practical systems and learning through real projects.
+            My main interests are low-level programming, gameplay systems, networking, physics and technical tools.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="assets/CV_Alberto_Javier_Espinosa_Yanez.pdf" download>Download CV</a>
+            <a class="btn" href="mailto:albertoesya@gmail.com">Email me</a>
+            <a class="btn" href="https://github.com/Albertoja" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="intro-card reveal">
+          <h2>Currently looking for</h2>
+          <ul>
+            <li>Junior C/C++ Developer roles</li>
+            <li>Junior Software Developer roles</li>
+            <li>Unity / Gameplay Programmer roles</li>
+            <li>Technical QA or tools-oriented roles</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section compact">
+      <div class="container split">
+        <div class="section-title reveal">
+          <p class="eyebrow">About</p>
+          <h2>Technical profile</h2>
+        </div>
+        <div class="text-block reveal">
+          <p>
+            My background combines project-based programming at 42 Madrid with long-term personal development in Unity.
+            At 42, I worked on C/C++ projects involving memory management, Unix processes, parsing, concurrency,
+            networking and object-oriented programming.
+          </p>
+          <p>
+            With 4Below, I have worked on a larger real-world project: multiplayer gameplay, active ragdoll physics,
+            procedural generation, enemy AI, UI flow, Steam integration and debugging complex gameplay systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section compact">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>What I work with</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill">
+            <h3>Languages</h3>
+            <p>C, C++, C#, JavaScript</p>
+          </div>
+          <div class="skill">
+            <h3>Core programming</h3>
+            <p>Algorithms, data structures, memory management, OOP, debugging</p>
+          </div>
+          <div class="skill">
+            <h3>Game development</h3>
+            <p>Unity, gameplay systems, physics, active ragdoll, UI, procedural generation, AI</p>
+          </div>
+          <div class="skill">
+            <h3>Systems & tools</h3>
+            <p>Linux, Git, Bash, Docker, Django, PostgreSQL, Redis, WebSockets</p>
+          </div>
+          <div class="skill">
+            <h3>3D tools</h3>
+            <p>Blender, Maya</p>
+          </div>
+          <div class="skill">
+            <h3>English</h3>
+            <p>Good technical English. Strong written comprehension and written communication.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fourbelow" class="section project-feature">
+      <div class="container">
+        <div class="section-title centered reveal">
+          <p class="eyebrow">Featured project</p>
+          <h2>4Below</h2>
+          <p>
+            A 1-4 player online co-op extraction game developed in Unity. Players descend into underground ruins,
+            recover relics, survive dangerous creatures and try to meet the quota together.
+          </p>
+        </div>
+
+        <div class="featured-image reveal">
+          <img src="assets/hero-4below.gif" alt="4Below gameplay screenshot" />
+        </div>
+
+        <div class="mini-grid">
+          <article class="mini-card reveal">
+            <img src="assets/physics-ragdoll.gif" alt="4Below active ragdoll physics gameplay" />
+            <h3>Physics interaction</h3>
+            <p>Active ragdoll characters and physics-based object interaction.</p>
+          </article>
+          <article class="mini-card reveal">
+            <img src="assets/procedural-map.gif" alt="4Below procedural map generation" />
+            <h3>Procedural generation</h3>
+            <p>Runtime generation of rooms, corridors, biomes and spawn points.</p>
+          </article>
+          <article class="mini-card reveal">
+            <img src="assets/enemy-ai.gif" alt="4Below enemy AI gameplay" />
+            <h3>Enemy AI</h3>
+            <p>Enemies using NavMesh, vision, sound detection, chase and attack states.</p>
+          </article>
+        </div>
+
+        <div class="actions centered-actions reveal">
+          <a class="btn primary" href="https://store.steampowered.com/app/4300260/4Below/" target="_blank" rel="noreferrer">View 4Below on Steam</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section compact">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">42 Projects</p>
+          <h2>C/C++ projects</h2>
+        </div>
+
+        <div class="projects-list">
+          <article class="project-row reveal">
+            <div>
+              <h3>Minishell</h3>
+              <p>Unix-like shell in C: command parsing, pipes, redirections, environment variables, signals and memory management.</p>
+            </div>
+            <a href="https://github.com/Albertoja/42_minishell" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+
+          <article class="project-row reveal">
+            <div>
+              <h3>Cub3D</h3>
+              <p>Raycasting-based 3D engine in C with map parsing, rendering, textures, movement and collision logic.</p>
+            </div>
+            <a href="https://github.com/Albertoja/42_cub3D" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+
+          <article class="project-row reveal">
+            <div>
+              <h3>Philosophers</h3>
+              <p>Concurrency project in C focused on threads, mutexes, synchronization and avoiding race conditions.</p>
+            </div>
+            <a href="https://github.com/Albertoja/42_philosophers" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+
+          <article class="project-row reveal">
+            <div>
+              <h3>ft_irc</h3>
+              <p>IRC server in C++ using sockets, client-server architecture, command parsing and real-time communication.</p>
+            </div>
+            <a href="https://github.com/Albertoja/42_ft_irc" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section compact">
+      <div class="container contact-box reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Open to junior programming opportunities</h2>
+        <p>
+          You can contact me by email for junior C/C++, software development, Unity/gameplay or technical programming opportunities.
+        </p>
+        <a class="email-link" href="mailto:albertoesya@gmail.com">albertoesya@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Alberto Javier Espinosa Yañez</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
